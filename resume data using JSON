@@ -1,0 +1,33 @@
+{
+    
+    "basics": {
+        "name":"keerthivarma",
+        "email":"keerthivarma47@gmail.com",
+        "degree":"B.Tech IT",
+        "address":"kamaraj nagar"
+    },
+    "Education":[
+        {
+            "institution":"xxx",
+            "area":"yyy",
+            "cgpa":"zzz"
+        }
+    ],
+    "skills": [
+        {
+            "name":"javascript"
+        }
+    ],
+    "languages":[
+        {
+            "language":"Tamil","English"
+        }
+    ],
+    "interests":[
+        {
+            "name":"playing cricket"
+        }
+    ]
+
+    
+}

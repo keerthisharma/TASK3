@@ -1,0 +1,28 @@
+//For the given JSON iterate over all for loops(for,for in,for of ,forEach)
+
+let arr = ['apple','orange','mango','kiwi'];
+for(let elements of arr){
+  console.log(elements);
+}
+let arrJSON = JSON.stringify(arr);
+
+var person = {
+    fname: "john",
+    Iname: "sriram",
+    age: 26
+};
+for (let x in person) {
+    console.log(x + ": " +person[x])
+}
+
+var numbers = [10,20,30,40,50]
+for (var i=0, i<numbers.length, i++){
+    console.log(numbers[i])
+}
+
+var names =["tom", "jerry","micky","mini"];
+names.forEach(function1);
+function function1(currentvalue, index){
+    console.log("index in array is: "+index +" ::  value is : "+currentvalue);
+}
+
